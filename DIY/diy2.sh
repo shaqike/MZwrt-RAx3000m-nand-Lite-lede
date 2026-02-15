@@ -125,7 +125,7 @@ cat <<EOL >> package/base-files/files/etc/uci-defaults/99-MzWrt-settings
 #!/bin/sh
 
 # 设置主机名
-uci set system.@system[0].hostname='MzWrt'
+uci set system.@system[0].hostname='CaiWrt'
 
 # 修改默认IP
 uci set network.lan.ipaddr='192.168.10.1'
